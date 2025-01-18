@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="webname">Restaurant</div>
+
+        <div class="tab-section">
+            <div class="tabs">Menu</div>
+            <div class="tabs">Reservation</div>
+            <div class="tabs">Contact</div>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="box">
+            <div class="innerBox">
+                
+                <div class="dishDesc">
+                    <div class="dishName">
+                        Pasta with pesto
+                    </div>
+                    <div class="desc" style="margin-top: 10px;">
+                        The pasta is al dente and has a green color from the pesto. 
+                        The pesto is made with basil, pine nuts, Parmesan cheese, and olive oil. 
+                    </div>
+                </div>
+                <button class="leftBtn" onclick="slider(-1)"><i class="fa fa-angle-left"></i></button>
+                <button class="rightBtn" onclick="slider(1)"><i class="fa fa-angle-right"></i></button>
+            </div>
+        </div>
+
+        <div class="table">
+            <img class="icon" src="images/play.png" alt="">
+            <img class="tableimg" src="images/img6.png" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

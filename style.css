@@ -1,0 +1,119 @@
+body{
+    background-color: rgba(255, 64, 0, 0.8);
+    margin: 0;
+    overflow: hidden;
+}
+
+.none{
+    display: none;
+}
+
+.header{
+    height: 70px;
+    /* background-color: palevioletred; */
+    display: flex;
+}
+
+.webname{
+    /* background-color: blue; */
+    width: 20%;
+    margin-left: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.tab-section{
+    /* background-color: green; */
+    color: white;
+    display: flex;
+    margin-left: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs{
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    margin-top: 60px;
+    /* background-color: lightgreen; */
+    display: flex;
+    height: 10%;
+}
+
+.box{
+    /* background-color: rgb(86, 178, 209); */
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.innerBox{
+    /* background-color: green; */
+    align-items: center;
+    justify-items: center;
+    height: 300px;
+}
+
+
+
+.dishName{
+    /* background-color: lightgreen; */
+    font-size: 27px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.dishDesc{
+    padding-top: 55px;
+    /* background-color: palevioletred; */
+    width: 70%;
+    font-size: 23px;
+    height: 300px;
+    color: white;
+}
+
+.desc{
+    font-family: sans-serif;
+}
+
+.innerBox button{
+    margin-left: 25px;
+    font-size: 50px;
+    /* background-color: green; */
+    border: none;
+    cursor: pointer;
+    background-color: rgba(245, 95, 45, 0.8);
+    color: wheat;
+
+}
+
+.table{
+    /* background-color: blueviolet; */
+    width: 52%;
+    display: flex;
+    align-items: center;
+}
+
+.tableimg{
+    width: 420px;
+    height: 420px;
+    margin-left: 10px;
+    transition: transform 1.4s ease-in-out; 
+    transform-origin: center; 
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+}
